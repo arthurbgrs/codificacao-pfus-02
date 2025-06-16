@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <form action="">
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for=""> Nome: </label>
+        <input type="text" id="nome" />
+        <br /><br />
+
+        <label for=""> Endereço: </label>
+        <input type="text" name="endereço" id="endereço" />
+        <br /><br />
+
+        <label for=""> Cidade: </label>
+        <input type="text" name="cidade" id="cidade" />
+        <br /><br />
+
+        <label for="estados"> Estados: </label>
+        <select name="estados" id="estados">
+          <option value="">Espirito Santo</option>
+          <option value="">São Paulo</option>
+          <option value="">Rio de Janeiro</option>
+          <option value="">Minas Gerais</option>
+          <option value="">Rio Grande do Sul</option>
+          <option value="">Acre</option>
+          <option value="">Alagoas</option>
+          <option value="">Amapá</option>
+          <option value="">Amazonas</option>
+          <option value="">Bahia</option>
+          <option value="">Ceará</option>
+          <option value="">Goias</option>
+          <option value="">Distrito Federal</option>
+          <option value="">Pará</option>
+          <option value="">Paraíba</option>
+          <option value="">Paraná</option>
+          <option value="">Pernambuco</option>
+          <option value="">Piauí</option>
+          <option value="">Rio Grande do Norte</option>
+          <option value="">Rondônia</option>
+          <option value="">Roraima</option>
+          <option value="">Santa Catarina</option>
+          <option value="">Maranhão</option>
+          <option value="">Mato Grosso</option>
+          <option value="">Mato Grosso do Sul</option>
+          <option value="">Sergipe</option>
+          <option value="">Tocantins</option>
+        </select>
+      </fieldset>
+    
+    <br /><br />
+
+    
+      <fieldset>
+        <legend>Dados profissionais</legend>
+        <label for="">Natureza do cargo</label>
+        <br />
+        <input type="radio" name="cargo" value="Gerência" /> Gerência
+        <input type="radio" name="cargo" value="Financeiro" /> Financeiro
+        <input type="radio" name="cargo" value="Recepção" /> Recepção
+        <input type="radio" name="cargo" value="Adminitrativo" /> Adminitrativo
+        <input type="radio" name="cargo" value="Jurídico" /> Jurídico
+        <br /><br />
+
+        <label for="">Área de interesse</label>
+        <br>
+        <input type="checkbox" name="area1" value="computação"> Computação
+        <input type="checkbox" name="area1" value="Biologia"> Biologia
+        <input type="checkbox" name="area1" value="Meio Ambiente"> Meio Ambiente
+        <input type="checkbox" name="area1" value="Engenharia"> Engenharia
+        <input type="checkbox" name="area1" value="história"> história
+        <br><br>
+        <label for=""> Mini-curriculo: </label>
+        <textarea name="mini-curriculo" id="mini-curriculo"></textarea>
+        <br><br>
+        
+      </fieldset>
+      <br><br>
+      <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+  </body>
+</html>

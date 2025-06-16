@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de cadastro</title>
+  </head>
+  <body>
+    <h1>FORMULÁRIO</h1>
+    <form action="" method="">
+      <fieldset>
+        <legend>Dados de login</legend>
+        <label for=""> Nome: </label>
+        <input
+          type="text"
+          id="nome"
+          placeholder="digite seu nome..."
+          maxlength="10"
+        />
+        <br /><br />
+
+        <label for="">Email: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="digite seu email..."
+        />
+        <br /><br />
+        <label for="">senha</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          placeholder="digite sua senha..."
+        />
+        <br /><br />
+
+        <input type="submit" value="login" />
+      </fieldset>
+    </form>
+    <br /><br />
+
+    <h1>outro ai o</h1>
+    <label for="">data de nascimento</label>
+    <input type="date" id="data" />
+    <input type="datetime-local" />
+    <br /><br />
+
+    <label for="telefone">telefone:</label>
+    <input type="tel" name="telefone" />
+    <br /><br />
+
+    <label for="textao">texto grande</label>
+    <textarea name="textao" id="textao" placeholder="coloca texto ai...">
+    </textarea>
+    <br /><br />
+
+    <label for="cor">cor</label>
+    <input type="color" name="cor" id="cor" />
+    <br /><br />
+
+    <label for="numeros">numeros</label>
+    <input type="number" min="-50" max="100" value="7" step="5" />
+    <br /><br />
+
+    <label for="barra">barrinha</label>
+    0
+    <input type="range" name="barra" id="barra" min="0" max="100" step="20" />
+    100 <br /><br />
+
+    <label for="">selecione o curso: </label>
+    <br />
+    <input type="radio" name="curso" value="eletrica" /> eletrica
+    <input type="radio" name="curso" value="mecanica" /> mecanica
+    <input type="radio" name="curso" value="programação" /> programação
+
+    <br /><br />
+
+    <label for="">redes sociais</label>
+    <br />
+    <input type="checkbox" name="tec1" value="zap" /> zap zap
+    <input type="checkbox" name="tec1" value="tt" /> X
+    <input type="checkbox" name="tec1" value="face" /> face <br /><br />
+
+    <label for="cidades">selecione cidade</label>
+    <br />
+    <select name="ciades" id="cidades">
+      cidades
+      <optgroup name="es" value="Es" label="es"></optgroup>
+      <option value="">vitoria</option>
+      <option value="">guarapa</option>
+      <option value="">nova iguaçu</option>
+      <option value="">lauro de freitas</option>
+      <option value="">vila velha</option>
+    </select>
+    <input type="reset" value="reset">
+  </body>
+</html>
