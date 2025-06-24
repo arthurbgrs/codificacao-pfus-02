@@ -1,0 +1,45 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    background-color: orange;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 30px;
+}
+div{
+    background-color: rgb(82, 32, 219);
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#caixa-roxa{
+      background-color: purple;
+      color: white;
+      width: 200px;
+      height: 200px;
+}
+#caixa-rosa{
+    background-color: rgb(255, 0, 255);
+      color: white;
+      width: 1200px;
+      height: 300px;
+      margin: 20px auto;
+      padding:20px;
+      
+}
+.minicaixa{
+    background-color: black;
+    font-size: 35px;
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+}
