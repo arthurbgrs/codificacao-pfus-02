@@ -1,0 +1,18 @@
+#primeiro{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+#segundo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: green;
+}
+#terceiro{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 20px;
+    color: blue;
+    font-style: italic;
+}
+#quarto{
+    
+}

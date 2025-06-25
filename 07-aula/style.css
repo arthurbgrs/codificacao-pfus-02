@@ -1,0 +1,28 @@
+body{
+    background-color: honeydew;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#principal{
+    width: 90%;
+    height: 800px;
+    background-color: cadetblue;
+    margin: auto;
+    background-image: url("https://imagens.ebc.com.br/QaPNak-EReZX2NaKFKAh7HMGOh8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/03/06/neymar_santos.jpg?itok=w0NHsA5O");
+    background-image: linear-gradient(red 50%,black 50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px;
+}
+#secundario{
+    width: 90%;
+    height: 2000px;
+    margin: auto;
+    background-color: aqua;
+     background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitcFNBC71z3WTnLie7Vv197AlXSJc_JWESSQAG5Xja-T58khCGtvibzkG9BYcSQhETg-fVWB7P7hkyrfzfDCjVsz03WmbJs_4dvDqUto6zZ_iYPABSqk1sBFhV65AZcA9hgZnvbMyj4Ac/s1600/DSC_0024.JPG");
+     background-size: auto;
+      background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: 50%;
+}
