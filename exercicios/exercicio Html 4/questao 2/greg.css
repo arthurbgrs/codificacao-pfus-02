@@ -1,6 +1,46 @@
+body {
+  background-color: dodgerblue;
+}
 
+p {
+  background-color: greenyellow;
+}
 
-
-p{
-    background-color: greenyellow;
+#primeira {
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitcFNBC71z3WTnLie7Vv197AlXSJc_JWESSQAG5Xja-T58khCGtvibzkG9BYcSQhETg-fVWB7P7hkyrfzfDCjVsz03WmbJs_4dvDqUto6zZ_iYPABSqk1sBFhV65AZcA9hgZnvbMyj4Ac/s1600/DSC_0024.JPG");
+  background-repeat: repeat-x;
+  background-size: 450px;
+}
+#segunda {
+  width: 90%;
+  height: 700px;
+  background-image: url("https://s2.glbimg.com/kfTVJNPZqyGmC5XcjnYR2iZiHuw=/0x0:2000x1333/690x460/s.glbimg.com/es/ge/f/original/2015/03/07/para_1.jpg");
+  background-repeat: repeat-y;
+  background-size: 450px;
+  background-position: center;
+}
+#terceira{
+    background-image: url("https://preview.redd.it/fotos-mais-ic%C3%B4nicas-do-futebol-parte-2-v0-dutpfr0w792d1.png?width=640&crop=smart&auto=webp&s=b9476472227a32fcd3eb10707aefea6e3d4ffebc");
+    width: 500px;
+    height: 500px;
+    background-position: center;
+}
+#quarta{
+    width: 2000px;
+    height: 600px;
+    background-image: url("https://tntsports.com.br/__export/1586723639773/sites/esporteinterativo/img/2020/04/12/ronaldo_brasil_alemanha_get.jpg_1677967823.jpg");
+    background-position: center;
+    background-repeat: no-repeat ;
+}
+#quinta{
+    width: 2000px;
+    height: 500px;
+    background-color: yellow ;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw1XnAgTlASxLeJ5bN_9l8ZZSrsemtQz1K0Q&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
