@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: antiquewhite;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}
+#navegacao {
+   width: 80%;
+   background-color: indianred;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 15px;
+   color: rgb(255, 251, 0);
+   font-size: 25px;
+   overflow: hidden;
+}
+.simbolo{
+    color: rgb(255, 238, 3);
+    font-size: 50px;
+}
+#item-menu{
+    list-style: none;
+    float:right;
+}
+li{
+    display: inline-block;
+    margin-left: 15px;
+    padding: 5px;
+   
+}
+li:hover{
+    color: rgb(255, 230, 0);
+    background-color: rgb(26, 16, 16);
+    cursor: pointer;
+    border-radius: 20px;
+    transform: scaleY(1.5);
+    transform: scaleX(1);
+}
+#logo{
+    float: left;
+}
+main{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    background-color: rgb(173, 71, 71);
+    border-radius: 10px;
+    height: 2000px;
+    color: aliceblue;
+    font-size: 25px;
+}
+#bloco{
+    
+    background-color:rgb(149, 0, 255);
+    height: 200px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#linha-bloco{
+    background-color: rgb(255, 0, 0);
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 900;
+    padding: 10px;
+    text-align: center;
+}
+.mini-bloco{
+    background-color: khaki;
+    width: 30%;
+    margin-top: 5px;
+    display: inline-block;
+    height: 200px;
+    line-height: 200px;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: rgb(247, 248, 192);
+        color: brown;
+    }
+    #navegacao {
+        width: 100%;
+        background-color: indianred;
+        padding: 10px;
+        font-size: 15px;
+    }
+    #logo{
+        font-size: 15px;
+        text-align: center;
+        float: none;
+    }
+    .simbolo{
+        color: rgb(255, 238, 3);
+        font-size: 30px;
+        float: none;
+        text-align: center;
+    }
+    #item-menu{
+        float: none;
+        text-align: center;
+        margin-left: 4px;
+    }
+
+}
+@media screen and (max-width: 500px){
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    #navegacao {
+        width: 100%;
+        background-color: rgb(255, 0, 0);
+        padding: 5px;
+        font-size: 12px;
+    }
+    #logo{
+        font-size: 12px;
+        text-align: center;
+        float: none;
+    }
+    .simbolo{
+        color: rgb(255, 238, 0);
+        font-size: 20px;
+        float: none;
+        text-align: center;
+    }
+    #item-menu{
+        float: none;
+        text-align: center;
+        margin-left: 4px;
+    }
+    li{
+        display: block;
+        margin-left: auto;
+        padding: 5px;
+    }
+    
+}
