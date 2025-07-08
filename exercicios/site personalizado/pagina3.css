@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: white;
+}
+.frase1 {
+  font-size: 35px;
+  margin: 20px;
+  text-align: left;
+  width: 50%;
+}
+.frase2 {
+  font-size: 35px;
+  margin: 20px;
+  text-align: left;
+  width: 50%;
+}
+#foto {
+  background-image: url("https://blogdopaulinho.com.br/wp-content/uploads/2016/02/neymar-novo.jpg");
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#times{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    margin-left: 90px;
+    position: relative;
+    left: 15px;
+    top: 150px;
+
+}
