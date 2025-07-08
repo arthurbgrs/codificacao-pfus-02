@@ -1,0 +1,30 @@
+body{
+    background-image:url("https://www.oliberal.com/image/contentid/policy:1.761262:1703676214/Neymar-posa-com-a-camisa-branca-do-Santos-na-Vila-Belmiro.jfif?f=2x1&$p$f=59b27fc&w=1500&$w=f075b93");
+    background-size: cover;
+}
+p{
+    color: white;
+    font-size: 35px;
+    float: left;
+}
+#ver-mais {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 25px;
+    
+    color: white;
+    padding: 20px;
+}
+span {
+    color: white;
+   font-size: 30px;
+}
+#historias {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+}

@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://www.ludopedio.org.br//wp-content/uploads/neymar-5-1024x683.jpg");
+    background-size: cover;
+}
+p{
+    color: white;
+    font-size: 35px;
+    float: right;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48;
+}
+#ver-mais {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-size: 25px;
+    
+    color: white;
+    padding: 20px;
+    
+    
+}
